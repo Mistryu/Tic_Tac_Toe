@@ -1,0 +1,82 @@
+
+#layout
+{
+    -fx-background-color: rgb(24, 68, 107);
+}
+
+#label
+{
+    -fx-text-fill: rgb(33, 150, 243);
+    -fx-font-size: 30px;
+}
+
+.menu
+{
+    -fx-background-color: #255784;
+
+}
+
+.menu .label {
+    -fx-padding: 6px 20px;
+    -fx-font-size: 15px;
+    -fx-text-fill: rgb(33, 150, 243);
+}
+
+.menu:hover,
+.menu:showing {
+    -fx-text-fill: #255784;
+    -fx-background-color: #2196f3;
+    -fx-effect: dropshadow(gaussian, #2196f3, 20, 0.5, 0.5, 0.5);
+}
+
+.menu-item {
+    -fx-text-fill: #2196f3;
+    -fx-background-color: #255784;
+    -fx-font-size: 15px;
+}
+
+.menu-item .label {
+    -fx-text-fill: #2196f3;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: #2196f3;
+}
+
+.menu-item:focused {
+    -fx-background: -fx-accent;
+    -fx-background-color: #91C9F7;
+    -fx-text-fill: #000000;
+}
+
+.menu .label:hover {
+    -fx-text-fill: #255784;
+    -fx-background-color: #2196f3;
+    -fx-effect: dropshadow(gaussian, #2196f3, 20, 0.5, 0.5, 0.5);
+}
+
+#clickable {
+    -fx-font-size: 15px;
+    -fx-padding: 10px 20px;
+    -fx-position: relative;
+    -fx-display: inline-block;
+    -fx-text-fill: #2196f3;
+    -fx-background-color: #255784;
+    -fx-letter-spacing: 3px;
+    -fx-text-decoration: none;
+    -fx-overflow: hidden;
+    -fx-transition: 0.2s;
+}
+#clickable:hover {
+    -fx-text-fill: #255784;
+    -fx-background-color: #2196f3;
+    -fx-effect: dropshadow(gaussian, #2196f3, 20, 0.5, 0.5, 0.5);
+}
+
+.menu-bar {
+    -fx-background-color: rgb(24, 68, 107);
+}
+
+.context-menu { /*This is this menu background fm*/
+    -fx-background-color: #255784;
+}
